@@ -1,0 +1,198 @@
+/* nav-bar*/
+
+.navbar {
+    display: none;
+}
+
+
+/* in music.html background image*/
+
+.box {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.box h3 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.thumbnails {
+    display: none;
+}
+
+
+/* h1 heading borders and alignment */
+
+.border {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* carousel*/
+
+#demo {
+    display: none;
+}
+
+
+/* heading align and colors and font sizes*/
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h3,
+header nav#mainmenu {
+    font-size: 1.5em
+}
+
+footer p,
+figcaption,
+figure,
+video {
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption {
+    font-family: cursive;
+    font-family: 'Dekko', cursive;
+}
+
+aside h2,
+q {
+    font-style: normal;
+    text-align: center;
+}
+
+figcaption {
+    display: none;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #000;
+    padding: 10px 5px;
+    letter-spacing: 2px;
+}
+
+p {
+    margin: 10px 0px 5px 0px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+table {
+    margin: 10px 0px;
+}
+
+p:first-of-type {
+    text-indent: 2em;
+}
+
+pre {
+    background-color: black;
+    color: white;
+}
+
+figure,
+video {
+    display: none;
+}
+
+body {
+    background-color: white;
+    margin: 10px 0px;
+}
+
+ol {
+    counter-reset: li;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+ol>li {
+    position: relative;
+    margin: 0 0 6px 2em;
+    padding: 4px 8px;
+    list-style: none;
+}
+
+img {
+    display: none;
+}
+
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+    margin: auto;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=reset] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+
+/* links */
+
+a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
